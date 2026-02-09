@@ -1,7 +1,7 @@
 CheerUp Corner
 
 CheerUp Corner is a cozy little web app designed to help you pause, reflect, and smile a bit more each day.
-Pick your mood, get mood-based content, and even write your own stories — all stored privately in your own account. 🌈✨
+Pick your mood, get mood-based content, and even write your own stories — all stored privately in your own account.🌈✨
 
 
 🌟 Features
