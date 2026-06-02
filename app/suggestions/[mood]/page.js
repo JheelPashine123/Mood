@@ -2,13 +2,13 @@
 
 "use client"; // Because we need useState and client-side interactivity
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import { suggestions } from "@/utils/suggestions";
 import Link from "next/link";
 import { useAuth } from "@/utils/AuthProvider";
 
 export default function SuggestionPage({ params }) {
-  const { mood } = params;
+  const { mood } = use(params);
   const { user, supabase, loading } = useAuth();
 
   const [currentSuggestion, setCurrentSuggestion] = useState("");
